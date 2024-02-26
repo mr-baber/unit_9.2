@@ -17,7 +17,9 @@ public class Boomerang extends Ranged {
     }
   
     public void toss(){
-      System.out.println("(  )  (  )  (");
+      for (int i = 0; i < super.getDist(); i++)
+        System.out.print(") ( ");
+        System.out.println();
     }
   
     public String toString(){

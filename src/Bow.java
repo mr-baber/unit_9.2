@@ -26,7 +26,9 @@ public class Bow extends Ranged {
     }
     
     public void fire(){
-      System.out.println("-->  -->  --> -->");
+      for (int i = 0; i < super.getDist(); i++)
+        System.out.print("--> ");
+        System.out.println();
     }
   
     public String toString(){

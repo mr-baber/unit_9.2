@@ -16,7 +16,10 @@ public class Ranged extends Weapon {
     // Method overriding occurs when a public method in a 
     // subclass has the same method signature as a public 
     // method in the superclass. 
-  
+    public int getDist(){
+      return distance;
+    }
+    
     public void improve(int newDamage, int newDistance){
       super.improve(newDamage);
       if (newDistance != 0) distance = newDistance;
