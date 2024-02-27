@@ -19,7 +19,7 @@ class App {
 
     // Any method that is called must be defined in its own class
     // or superclass.
-
+    /*
     weapon.improve(5);
     ranged.improve(10);
     // ranged.improve(15, 10);
@@ -43,10 +43,12 @@ class App {
     System.out.println(ashBow);
     System.out.println(boom);
     System.out.println(bigBoom);
-
+    */
+    /* 
     // bow.fire();
     ashBow.fire();
     // boom.toss();
     bigBoom.toss();
+    */
   }
 }
